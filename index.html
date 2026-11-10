@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+
+    <style>
+
+        .a {
+            text-align: center;
+            color: aquamarine;
+            background-color: chocolate;
+        }
+
+        img {
+            height: 100px;
+            width: 155px;
+        }
+
+        .container-1,
+        .container-2,
+        .container-3,
+        .container-4 {
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            row-gap: 30px;
+            align-items: center;
+            text-align: center;
+        }
+
+        .box1,
+        .box2,
+        .box-3,
+        .box-4 {
+            border: 2px solid burlywood;
+            margin: 20px;
+        }
+        .div {
+           background-color: white;
+           width: 200px;
+           box-shadow: 2px 2px 2px black;
+           text-align: center;
+           border: 2px solid burlywood;
+           margin: 10px;
+        }
+    footer{
+        margin-top: auto;
+        background-color:aquamarine;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        }
+
+        .links {
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: lightsalmon;
+            color: antiquewhite;
+        }
+                img{
+        height: 100px;
+        width: 155px;
+        align-items: center;
+            
+        }
+      @media (max-width: 900px) {
+    .container-1, .container-2, .container-3,
+    .container-4, .container-5 {
+        grid-template-columns: repeat(2, 200px);
+    }
+}
+@media (max-width: 500px) {
+    .container-1, .container-2, .container-3,
+    .container-4, .container-5 {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1 class="a">My Library</h1>
+
+    <div class="links">
+        <a href="#">Home page</a> &emsp;&emsp;
+        <a href="#Comic">Comic books</a> &emsp;&emsp;
+        <a href="#Education">Educational Books</a> &emsp;&emsp;
+        <a href="#Story Books">Story Books</a> &emsp;&emsp;
+        <a href="#Competitive">Competitive exam books</a> &emsp;&emsp;
+        <a href="reg.html">Register</a>
+    </div>
+
+    <!-- Comic Books -->
+
+    <h2 id="Comic">Comic books</h2>
+
+    <div class="container-1">
+
+        <div class="box1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRljoX-zuHY13SxeB5lmHLozoUM6fMM-01YavUM5FqIZQ&s=10">
+            <h4>Book:Lightfall</h4>
+            <p>Rs.599</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfJqL9i5ZMdJgMT1JpgVBmATRWqRZ9oq6JHSDHXxsVJdkG013Tg-IHXDmI&s=10">
+            <h4>Book:Investi Gators</h4>
+            <p>Rs.450</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box1">
+            <img src="https://images.squarespace-cdn.com/content/v1/59e3e9facd39c3fc494e810e/d2c0b215-f27d-4dcc-b7b7-c489e9615d84/FoxRiverComicsCamp_large.jpg">
+            <h4>Book:Fox River</h4>
+            <p>Rs.699</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box1">
+            <img src="https://www.comicbookherald.com/wp-content/uploads/2024/07/818GDQ63JWL._SL1500_.jpg">
+            <h4>Book:Hilo</h4>
+            <p>Rs.359</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+    <!-- Educational Books -->
+
+    <h1 id="Education">Educational Books</h1>
+
+    <div class="container-2">
+
+        <div class="box2">
+            <img src="https://books.testbook.com/cdn/shop/files/MATHEMATICSFORMULABOOKS_MOCKUP_2.png?v=1757493389">
+            <h4>Book:Mathematics</h4>
+            <p>Rs.1000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box2">
+            <img src="https://rukminim2.flixcart.com/image/480/640/k4rcmfk0/book/9/1/5/physics-for-class-10th-original-imafnhzg5f3azqhr.jpeg?q=20">
+            <h4>Book:Physics</h4>
+            <p>Rs.899</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3iroRFQ_Sc-uv87-r1Y3c3alGn_WvVHD3LXjLTKdC8p176tM5d6B_4ED&s=10">
+            <h4>Book:Telugu</h4>
+            <p>Rs.699</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZbgnAaviMwG5LYf0f4icDc5R87Fqg9KSNmibH8Y9UPjjgZrTW-w1xaQjm&s=10">
+            <h4>Book:Hindi</h4>
+            <p>Rs.799</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box2">
+            <img src="https://gujarattextbooks.in/images/Std%205%20English%20Second%20Language%20Gujarati%20Medium.webp">
+            <h4>Book:English</h4>
+            <h4>Standard:5th</h4>
+            <p>Rs.1199</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box2">
+            <img src="https://m.media-amazon.com/images/I/81y8xVpenGL._AC_UF1000,1000_QL80_.jpg">
+            <h4>Book:Social</h4>
+            <h4>Standard:9th</h4>
+            <p>Rs.799</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+    <!-- Story Books -->
+
+    <h1 id="Story Books">Story Books</h1>
+
+    <div class="container-3">
+
+        <div class="box-3">
+            <img src="https://shops.offshootbooks.com/cdn/shop/products/9128YbO9MyL.jpg?v=1652864659">
+            <h4>Sleeping Beauty</h4>
+            <p>Rs.449</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box-3">
+            <img src="https://manybooks.net/sites/default/files/styles/220h330sc_new/public/webform/ebook_feature_application/15896/the-foundling-ebook-%281.jpg?itok=L93IN2uV">
+            <h4>The Foundling</h4>
+            <p>Rs.699</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box-3">
+            <img src="https://centurypast.org/wp-content/uploads/2022/07/Murder-in-an-Irish-Village.webp">
+            <h4>Murder in Irish</h4>
+            <p>Rs.459</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD7zW1U2LG_uQekyM0j5qXvgPG7B-BfmdZMY1wkh2BOvPiV4Ioewo-8D0&s=10">
+            <h4>Dreamonition</h4>
+            <p>Rs.399</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+    <!-- Competitive Exam Books -->
+
+    <h1 id="Competitive">Competitive Exam Books</h1>
+
+    <div class="container-4">
+
+        <div class="box-4">
+            <img src="https://oswalpublishers.com/wp-content/uploads/2022/02/General-Knowledge-For-Competitive-Exam-01.webp">
+            <h4>General Knowledge</h4>
+            <p>Rs.799</p>
+            <button>Add to Cart</button>
+        </div>
+
+         <div class="box-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM1Uu27-lJc_Tz5ARi8RW-CGFKrskNt9RFQJV3J29ddA&s=10">
+            <h4>UPSC</h4>
+            <p>Rs.599</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIKAte1Rw1XXOA9pIn7bDZ6HyaHTwOp3JVMD4bM9e5gg&s=10">
+            <h4>Aptitude & Reasoning</h4>
+            <p>Rs.799</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="box-4">
+            <img src="https://rukminim3.flixcart.com/image/480/640/xif0q/book/r/0/r/gate-statistics-original-imahmx7hq475upga.jpeg?q=80">
+            <h4>Gate preparation book</h4>
+            <p>Rs.899</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
